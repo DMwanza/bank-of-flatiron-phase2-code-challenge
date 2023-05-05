@@ -11,7 +11,7 @@ function App() {
   // Fetch data from the the db.json using useEffect
 
   useEffect (()=> {
-    fetch ("https://my-json-server.typicode.com/sirkaranja/Bank-of-Flatiron/transactions")
+    fetch ("https://my-json-server.typicode.com/DMwanza/bank-of-flatiron-phase2-code-challenge/transactions")
       .then ((r)=> r.json ())
       .then ((data)=> setTransactions(data))
   }, [])

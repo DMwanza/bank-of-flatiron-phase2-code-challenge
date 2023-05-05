@@ -19,7 +19,7 @@ function Form ({newTransaction}) {
     function handleSubmit (e) {
         e.preventDefault ();
 
-        fetch ("https://my-json-server.typicode.com/sirkaranja/Bank-of-Flatiron/transactions", {
+        fetch ("https://my-json-server.typicode.com/DMwanza/bank-of-flatiron-phase2-code-challenges", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
